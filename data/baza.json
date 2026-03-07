@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Frosty",
+    "breed": "Angora Rabbit",
+    "age": 2,
+    "gender": "Male",
+    "image": "/images/frosty.jpg",
+    "description": "Frosty is a playful and curious young rabbit who loves exploring."
+  },
+  {
+    "id": 2,
+    "name": "Lola",
+    "breed": "Himalayan Rabbit",
+    "age": 3,
+    "gender": "Female",
+    "image": "/images/lola.jpg",
+    "description": "Lola is calm and gentle, loves to be petted and enjoys long naps."
+  },
+  {
+    "id": 3,
+    "name": "Cookie",
+    "breed": "Dutch Rabbit",
+    "age": 1,
+    "gender": "Female",
+    "image": "/images/cookie.jpg",
+    "description": "Cookie is friendly and loves interacting with people, very social."
+  },
+  {
+    "id": 4,
+    "name": "Teeny",
+    "breed": "Mini Rex Rabbit",
+    "age": 2,
+    "gender": "Male",
+    "image": "/images/teeny.jpg",
+    "description": "Teeny is a small but energetic rabbit, loves running around and playing with toys."
+  },
+  {
+    "id": 5,
+    "name": "Cinnamon",
+    "breed": "Lionhead Rabbit",
+    "age": 4,
+    "gender": "Female",
+    "image": "/images/cinnamon.jpg",
+    "description": "Cinnamon is sweet-natured and enjoys spending time with other rabbits."
+  }
+]

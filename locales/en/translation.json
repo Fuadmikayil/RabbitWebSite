@@ -1,0 +1,164 @@
+{
+  "nav": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "ourMission": "Our Mission",
+    "ourTeam": "Our Team",
+    "services": "Services",
+    "rabbitCare": "Rabbit Care",
+    "adoptionServices": "Adoption Services",
+    "pages": "Pages",
+    "blog": "Blog",
+    "testimonials": "Testimonials",
+    "contactUs": "Contact Us"
+  },
+  "hero": {
+    "title": "Welcome to our Rabbit Farm!",
+    "description": "Every rabbit deserves a loving home!",
+    "readMore": "Read More"
+  },
+  "services": {
+    "title": "Our Services",
+    "nutritiousFood": "Nutritious Food",
+    "nutritiousFoodDesc": "High-quality food for rabbits that ensures a healthy life.",
+    "rabbitCare": "Rabbit Care",
+    "rabbitCareDesc": "Comprehensive care packages for all your rabbit needs.",
+    "vaccination": "Vaccination",
+    "vaccinationDesc": "Protection against common diseases to keep your rabbit healthy."
+  },
+  "adopt": {
+    "title": "Adopt a Bunny, Give It a Happy Home",
+    "bunniesLoved": "Bunnies Loved",
+    "bunniesAdopted": "Bunnies Adopted"
+  },
+  "profiles": {
+    "title": "Find Your Furry Friend Here",
+    "noRabbits": "No rabbits available at the moment.",
+    "years": "years"
+  },
+  "vision": {
+    "title": "Our Vision And Mission",
+    "ourVision": "Our Vision",
+    "ourMission": "Our Mission",
+    "visionText": "To be the leading shelter for rabbits and ensure their well-being through a loving environment.",
+    "savingRabbits": "Saving rabbits",
+    "providingHomes": "Providing loving homes",
+    "promotingWelfare": "Promoting rabbit welfare education"
+  },
+  "team": {
+    "title": "Meet Our Team",
+    "rabbitCareSpecialist": "Rabbit Care Specialist",
+    "volunteerCoordinator": "Volunteer Coordinator",
+    "rabbitTrainer": "Rabbit Trainer"
+  },
+  "reviews": {
+    "title": "Rabbit Lovers Review",
+    "review1": "A wonderful place for adopting rabbits. They took such good care of my bunny!",
+    "review1Author": "Mia N.",
+    "review2": "The best rabbit shelter in town! Very loving and dedicated staff.",
+    "review2Author": "Sebastian K."
+  },
+  "footer": {
+    "copyright": "© 2026 Rabbit Shelter. All Rights Reserved."
+  },
+  "about": {
+    "badge": "About Us",
+    "contactBtn": "Contact Us",
+    "servicesBtn": "Our Services",
+    "companyProfile": "Company Profile",
+    "whyUs": "Why Us?",
+    "partners": "Our Partners",
+    "experience": "Years of Experience",
+    "workshops": "Active Workshops",
+    "orders": "Orders",
+    "oneAddress": "Service from One Address",
+    "experienceTrust": "Experience + Trust",
+    "workshopsProduction": "Workshops & Production",
+    "guarantee": "Guarantee",
+    "oneSolution": "One-stop Solution",
+    "noData": "partnersSection.about not found in baza.json."
+  },
+  "servicesPage": {
+    "description": "Orders in our plastic, welding and woodworking shops are prepared by professional craftsmen with modern equipment. Quality, safety and durability are our main priorities.",
+    "contactBtn": "Contact Us",
+    "selectService": "Select Service",
+    "selectServiceDesc": "Open one of the sections below and click \"More Details\" for service information.",
+    "sections": "Sections",
+    "moreDetails": "More Details",
+    "detailsFallback": "Visit the section for detailed information.",
+    "orderNote": "To place an order and get a price",
+    "contactPage": "contact page",
+    "visitText": "visit.",
+    "customDesign": "Custom Size & Design",
+    "qualityControl": "Quality Control",
+    "fastExecution": "Fast Execution",
+    "guaranteedWork": "Guaranteed Work"
+  },
+  "serviceDetail": {
+    "notFound": "Service Not Found",
+    "notFoundDesc": "No matching service found in the database for this page.",
+    "incomingSlug": "Incoming slug",
+    "dbSlugs": "Database slugs",
+    "backToServices": "Back to Services",
+    "service": "Service",
+    "priceOrder": "Contact for Price / Order",
+    "allServices": "All Services",
+    "aboutService": "About the Service",
+    "detailContact": "Contact us for details and measurements — orders are prepared with an individual approach.",
+    "whatWeDo": "What We Do?",
+    "consultation": "Consultation and measurements",
+    "professionalInstall": "Professional installation and neat execution",
+    "qualityDelivery": "Quality control and timely delivery",
+    "imageNote": "Images are for illustration purposes. Actual orders are made to individual measurements.",
+    "otherServices": "Other Services",
+    "empty": "(empty)"
+  },
+  "contact": {
+    "badge": "Quick Response",
+    "title": "Contact",
+    "subtitle": "Contact us for ordering, pricing and cooperation.",
+    "servicesBtn": "Our Services",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "workHours": "Working Hours",
+    "workDays": "Sunday - Friday",
+    "allDay": "24 hours",
+    "office": "Office",
+    "duringWorkHours": "During work hours",
+    "sendMessage": "Send Message",
+    "formNote": "Fill out the form — we'll get back to you soon.",
+    "nameLabel": "Full Name",
+    "phoneLabel": "Phone",
+    "serviceLabel": "Select Service",
+    "messageLabel": "Your Message",
+    "submitBtn": "Send",
+    "sending": "Sending... (redirecting to email)",
+    "company": "Company",
+    "aboutPage": "About Us Page",
+    "selectService": "Select Service",
+    "mapTitle": "View on Map",
+    "ctaTitle": "For Price and Order",
+    "ctaSubtitle": "Get in touch in 1 minute — we'll advise you.",
+    "whatsapp": "Write on WhatsApp",
+    "callBtn": "Call",
+    "whatsappLabel": "WhatsApp",
+    "callLabel": "Call",
+    "addressLabel": "Address",
+    "emailLabel": "Email",
+    "emailSubject": "New message from site (Contact form)",
+    "defaultPhone": "+994 50 000 00 00",
+    "defaultEmail": "info@example.com",
+    "defaultAddress": "Baku, Azerbaijan",
+    "defaultHours": "09:00 - 18:00"
+  },
+  "language": {
+    "az": "AZ",
+    "ru": "RU",
+    "en": "EN"
+  },
+  "partners": {
+    "title": "Our Partners",
+    "companyLogo": "Company logo"
+  }
+}

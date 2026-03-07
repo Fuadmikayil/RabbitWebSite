@@ -1,0 +1,164 @@
+{
+  "nav": {
+    "home": "Ana Səhifə",
+    "aboutUs": "Haqqımızda",
+    "ourMission": "Missiyamız",
+    "ourTeam": "Komandamız",
+    "services": "Xidmətlər",
+    "rabbitCare": "Dovşan Baxımı",
+    "adoptionServices": "Övladlığa Götürmə",
+    "pages": "Səhifələr",
+    "blog": "Bloq",
+    "testimonials": "Rəylər",
+    "contactUs": "Əlaqə"
+  },
+  "hero": {
+    "title": "Dovşan Fermamıza Xoş Gəlmisiniz!",
+    "description": "Hər dovşan sevgi dolu bir yuvaya layiqdir!",
+    "readMore": "Daha Ətraflı"
+  },
+  "services": {
+    "title": "Xidmətlərimiz",
+    "nutritiousFood": "Qidalı Yemək",
+    "nutritiousFoodDesc": "Sağlam həyat təmin edən keyfiyyətli dovşan yeməyi.",
+    "rabbitCare": "Dovşan Baxımı",
+    "rabbitCareDesc": "Dovşanlarınızın bütün ehtiyacları üçün tam baxım paketləri.",
+    "vaccination": "Vaksinasiya",
+    "vaccinationDesc": "Dovşanınızı sağlam saxlamaq üçün xəstəliklərdən qoruma."
+  },
+  "adopt": {
+    "title": "Bir dovşanı övladlığa götür, ona xoşbəxt yuva ver",
+    "bunniesLoved": "Sevilən Dovşanlar",
+    "bunniesAdopted": "Övladlığa Götürülən Dovşanlar"
+  },
+  "profiles": {
+    "title": "Tüklü Dostunuzu Burada Tapın",
+    "noRabbits": "Hazırda dovşan yoxdur.",
+    "years": "il"
+  },
+  "vision": {
+    "title": "Vizyonumuz və Missiyamız",
+    "ourVision": "Vizyonumuz",
+    "ourMission": "Missiyamız",
+    "visionText": "Sevgi dolu mühit vasitəsilə dovşanların rifahını təmin edən aparıcı sığınacaq olmaq.",
+    "savingRabbits": "Dovşanları xilas etmək",
+    "providingHomes": "Sevgi dolu yuvalar təmin etmək",
+    "promotingWelfare": "Dovşan rifahı təhsilini təşviq etmək"
+  },
+  "team": {
+    "title": "Komandamızla Tanış Olun",
+    "rabbitCareSpecialist": "Dovşan Baxımı Mütəxəssisi",
+    "volunteerCoordinator": "Könüllü Koordinator",
+    "rabbitTrainer": "Dovşan Təlimçisi"
+  },
+  "reviews": {
+    "title": "Dovşan Sevərlərin Rəyləri",
+    "review1": "Dovşan övladlığa götürmək üçün əla yer. Dovşanıma çox yaxşı baxdılar!",
+    "review1Author": "Mia N.",
+    "review2": "Şəhərdəki ən yaxşı dovşan sığınacağı! Çox sevgi dolu və fədakar heyət.",
+    "review2Author": "Sebastian K."
+  },
+  "footer": {
+    "copyright": "© 2026 Dovşan Sığınacağı. Bütün hüquqlar qorunur."
+  },
+  "about": {
+    "badge": "Haqqımızda",
+    "contactBtn": "Əlaqə saxla",
+    "servicesBtn": "Xidmətlərimiz",
+    "companyProfile": "Şirkət profili",
+    "whyUs": "Niyə biz?",
+    "partners": "Bizim tərəfdaşlarımız",
+    "experience": "İl təcrübə",
+    "workshops": "Sex fəaliyyəti",
+    "orders": "Sifariş",
+    "oneAddress": "Ünvandan xidmət",
+    "experienceTrust": "Təcrübə + etibar",
+    "workshopsProduction": "Sexlər və istehsal",
+    "guarantee": "Zəmanət",
+    "oneSolution": "Bir ünvandan həll",
+    "noData": "baza.json içində partnersSection.about tapılmadı."
+  },
+  "servicesPage": {
+    "description": "Plastik, qaynaq və taxta sexlərimizdə sifarişlər peşəkar ustalar və müasir avadanlıqlarla hazırlanır. Keyfiyyət, təhlükəsizlik və uzunömürlülük bizim əsas prioritetlərimizdir.",
+    "contactBtn": "Əlaqə saxla",
+    "selectService": "Xidmət seçin",
+    "selectServiceDesc": "Aşağıdakı bölmələrdən birini açın və \"Daha ətraflı\" ilə xidmətin detallarına baxın.",
+    "sections": "Bölmələr",
+    "moreDetails": "Daha ətraflı",
+    "detailsFallback": "Ətraflı məlumat üçün bölməyə daxil olun.",
+    "orderNote": "Sifariş vermək və qiymət almaq üçün",
+    "contactPage": "əlaqə səhifəsinə",
+    "visitText": "daxil olun.",
+    "customDesign": "Fərdi ölçü və dizayn",
+    "qualityControl": "Keyfiyyətə nəzarət",
+    "fastExecution": "Sürətli icra",
+    "guaranteedWork": "Zəmanətli iş"
+  },
+  "serviceDetail": {
+    "notFound": "Xidmət tapılmadı",
+    "notFoundDesc": "Bu səhifə üçün bazada uyğun xidmət yoxdur.",
+    "incomingSlug": "Gələn slug",
+    "dbSlugs": "Bazadakı slug-lar",
+    "backToServices": "Xidmətlər siyahısına qayıt",
+    "service": "Xidmət",
+    "priceOrder": "Qiymət / Sifariş üçün əlaqə",
+    "allServices": "Bütün xidmətlər",
+    "aboutService": "Xidmət haqqında",
+    "detailContact": "Ətraflı məlumat və ölçü üçün bizimlə əlaqə saxlayın — sifarişlər fərdi yanaşma ilə hazırlanır.",
+    "whatWeDo": "Nələr edirik?",
+    "consultation": "Konsultasiya və ölçü götürülməsi",
+    "professionalInstall": "Peşəkar montaj və səliqəli icra",
+    "qualityDelivery": "Keyfiyyətə nəzarət və vaxtında təhvil",
+    "imageNote": "Şəkillər nümunə xarakterlidir. Real sifariş fərdi ölçüyə görə hazırlanır.",
+    "otherServices": "Digər xidmətlər",
+    "empty": "(boş)"
+  },
+  "contact": {
+    "badge": "Sürətli cavab",
+    "title": "Əlaqə",
+    "subtitle": "Sifariş, qiymət və əməkdaşlıq üçün bizimlə rahat şəkildə əlaqə saxlayın.",
+    "servicesBtn": "Xidmətlərimiz",
+    "phone": "Telefon",
+    "email": "Email",
+    "address": "Ünvan",
+    "workHours": "İş Saatları",
+    "workDays": "Bazar günü - Cümə",
+    "allDay": "24 saat",
+    "office": "Ofis",
+    "duringWorkHours": "İş saatlarında",
+    "sendMessage": "Mesaj göndər",
+    "formNote": "Formu doldurun — tez zamanda geri dönüş edək.",
+    "nameLabel": "Ad Soyad",
+    "phoneLabel": "Telefon",
+    "serviceLabel": "Xidmət seç",
+    "messageLabel": "Mesajınız",
+    "submitBtn": "Göndər",
+    "sending": "Göndərilir... (mailə yönləndiriləcək)",
+    "company": "Şirkət",
+    "aboutPage": "Haqqımızda səhifəsi",
+    "selectService": "Xidmət seç",
+    "mapTitle": "Xəritədə bax",
+    "ctaTitle": "Qiymət və sifariş üçün",
+    "ctaSubtitle": "1 dəqiqəyə əlaqə saxlayın — məsləhət verək.",
+    "whatsapp": "WhatsApp-a yaz",
+    "callBtn": "Zəng et",
+    "whatsappLabel": "WhatsApp",
+    "callLabel": "Zəng",
+    "addressLabel": "Ünvan",
+    "emailLabel": "Email",
+    "emailSubject": "Saytdan yeni mesaj (Əlaqə formu)",
+    "defaultPhone": "+994 50 000 00 00",
+    "defaultEmail": "info@example.com",
+    "defaultAddress": "Bakı, Azərbaycan",
+    "defaultHours": "09:00 - 18:00"
+  },
+  "language": {
+    "az": "AZ",
+    "ru": "RU",
+    "en": "EN"
+  },
+  "partners": {
+    "title": "Bizim tərəfdaşlarımız",
+    "companyLogo": "Şirkət loqosu"
+  }
+}
