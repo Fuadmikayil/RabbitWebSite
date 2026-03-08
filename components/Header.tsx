@@ -2,88 +2,98 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
+import { useState } from 'react'
 import { useTranslation } from '../i18n/TranslationProvider'
 import LanguageSwitcher from './LanguageSwitcher'
 
 const Header = () => {
   const { t, locale } = useTranslation()
+  const [isOpen, setIsOpen] = useState(false)
+
+  const navItems = [
+    { href: `/${locale}`, label: t('nav.home') },
+    { href: `/${locale}/xidmetler`, label: t('nav.services') },
+    { href: `/${locale}/mehsullar`, label: t('nav.products') },
+    { href: `/${locale}/haqqimizda`, label: t('nav.aboutUs') },
+  ]
 
   return (
-    <header className="bg-zinc-900 py-4 w-[80%] mx-auto rounded-full">
-      <div className="container mx-auto flex justify-between px-6 items-center">
-        <div className="flex rounded-full items-center">
-          <Image
-            src="/logoLight.png"
-            className="rounded-full"
-            alt={t('nav.home')}
-            width={80}
-            height={80}
-          />
-        </div>
-
-        <nav className="space-x-6">
-          <Link href={`/${locale}`} className="text-white hover:text-gray-200">
-            {t('nav.home')}
-          </Link>
-          <div className="relative inline-block">
-            <button className="text-white hover:text-gray-200">
-              {t('nav.aboutUs')}
-            </button>
-            <div className="absolute left-0 hidden mt-2 bg-white text-black shadow-lg rounded-lg">
-              <Link href={`/${locale}/haqqimizda`} className="block px-4 py-2">
-                {t('nav.ourMission')}
-              </Link>
-              <Link href={`/${locale}/haqqimizda`} className="block px-4 py-2">
-                {t('nav.ourTeam')}
-              </Link>
-            </div>
-          </div>
-          <div className="relative inline-block">
-            <button className="text-white hover:text-gray-200">
-              {t('nav.services')}
-            </button>
-            <div className="absolute left-0 hidden mt-2 bg-white text-black shadow-lg rounded-lg">
-              <Link href={`/${locale}/xidmetler`} className="block px-4 py-2">
-                {t('nav.rabbitCare')}
-              </Link>
-              <Link href={`/${locale}/xidmetler`} className="block px-4 py-2">
-                {t('nav.adoptionServices')}
-              </Link>
-            </div>
-          </div>
-          <div className="relative inline-block">
-            <button className="text-white hover:text-gray-200">
-              {t('nav.pages')}
-            </button>
-            <div className="absolute left-0 hidden mt-2 bg-white text-black shadow-lg rounded-lg">
-              <Link href={`/${locale}`} className="block px-4 py-2">
-                {t('nav.blog')}
-              </Link>
-              <Link href={`/${locale}`} className="block px-4 py-2">
-                {t('nav.testimonials')}
-              </Link>
-            </div>
-          </div>
-          <Link href={`/${locale}/elaqe`} className="text-white hover:text-gray-200">
-            {t('nav.contactUs')}
-          </Link>
-        </nav>
-
-        <div className="flex items-center gap-4">
-          <LanguageSwitcher />
-          <a href="https://wa.me/994707740404" target="_blank" rel="noopener noreferrer">
-            <img
-              src="/whatsappMain.png"
+    <header className="sticky top-0 z-50 px-3 pt-3 md:px-5">
+      <div className="mx-auto w-full max-w-7xl rounded-2xl border border-white/15 bg-zinc-950/90 shadow-lg backdrop-blur">
+        <div className="flex items-center justify-between px-4 py-3 md:px-6">
+          <Link href={`/${locale}`} className="flex items-center gap-3" onClick={() => setIsOpen(false)}>
+            <Image
+              src="/logoLight.png"
               className="rounded-full"
-              alt="WhatsApp"
-              width={60}
-              height={60}
+              alt={t('nav.home')}
+              width={48}
+              height={48}
             />
-          </a>
+            <span className="text-sm font-bold text-white min-[1025px]:text-base">Rabbit Site</span>
+          </Link>
+
+          <nav className="hidden items-center gap-6 min-[768px]:flex">
+            {navItems.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="text-sm font-medium text-white/85 transition hover:text-white"
+              >
+                {item.label}
+              </Link>
+            ))}
+          </nav>
+
+          <div className="hidden items-center gap-3 min-[768px]:flex">
+            <LanguageSwitcher />
+            <Link
+              href={`/${locale}/elaqe`}
+              className="rounded-xl bg-amber-400 px-4 py-2 text-sm font-semibold text-zinc-900 transition hover:bg-amber-300"
+            >
+              {t('nav.contactButton')}
+            </Link>
+          </div>
+
+          <button
+            type="button"
+            onClick={() => setIsOpen((prev) => !prev)}
+            className="inline-flex items-center justify-center rounded-lg border border-white/20 px-3 py-2 text-xs font-semibold text-white min-[768px]:hidden"
+            aria-expanded={isOpen}
+            aria-label={isOpen ? t('nav.closeMenu') : t('nav.openMenu')}
+          >
+            {isOpen ? t('nav.closeMenu') : t('nav.openMenu')}
+          </button>
         </div>
+
+        {isOpen && (
+          <div className="space-y-2 border-t border-white/15 px-4 py-4 min-[768px]:hidden">
+            {navItems.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="block rounded-lg px-3 py-2 text-sm font-medium text-white/90 transition hover:bg-white/10"
+                onClick={() => setIsOpen(false)}
+              >
+                {item.label}
+              </Link>
+            ))}
+
+            <div className="pt-2">
+              <LanguageSwitcher />
+            </div>
+
+            <Link
+              href={`/${locale}/elaqe`}
+              className="mt-2 inline-flex w-full items-center justify-center rounded-lg bg-amber-400 px-4 py-2 text-sm font-semibold text-zinc-900 transition hover:bg-amber-300"
+              onClick={() => setIsOpen(false)}
+            >
+              {t('nav.contactButton')}
+            </Link>
+          </div>
+        )}
       </div>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

@@ -10,7 +10,11 @@
     "pages": "Səhifələr",
     "blog": "Bloq",
     "testimonials": "Rəylər",
-    "contactUs": "Əlaqə"
+    "contactUs": "Əlaqə",
+    "products": "Məhsullar",
+    "contactButton": "İndi Əlaqə",
+    "openMenu": "Menyu",
+    "closeMenu": "Bağla"
   },
   "hero": {
     "title": "Dovşan Fermamıza Xoş Gəlmisiniz!",
@@ -59,7 +63,20 @@
     "review2Author": "Sebastian K."
   },
   "footer": {
-    "copyright": "© 2026 Dovşan Sığınacağı. Bütün hüquqlar qorunur."
+    "copyright": "© 2026 Dovşan Sığınacağı. Bütün hüquqlar qorunur.",
+    "description": "Dovşan baxımı, övladlığa götürmə və lazımi məhsullar üçün etibarlı mərkəz.",
+    "socialTitle": "Sosial Media",
+    "contactTitle": "Əlaqə Məlumatları",
+    "legalTitle": "Hüquqi",
+    "privacy": "Məxfilik Siyasəti",
+    "terms": "İstifadə Şərtləri"
+  },
+  "products": {
+    "pageTitle": "Dovşanlar və Məhsullar",
+    "pageDescription": "Sevimli dovşan profillərini və gündəlik baxım üçün əsas məhsulları bir səhifədə kəşf edin.",
+    "cta": "Sifariş üçün əlaqə",
+    "rabbitsTitle": "Dovşanlar",
+    "shopTitle": "Məhsullar"
   },
   "about": {
     "badge": "Haqqımızda",

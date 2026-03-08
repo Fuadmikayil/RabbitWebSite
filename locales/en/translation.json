@@ -10,7 +10,11 @@
     "pages": "Pages",
     "blog": "Blog",
     "testimonials": "Testimonials",
-    "contactUs": "Contact Us"
+    "contactUs": "Contact Us",
+    "products": "Products",
+    "contactButton": "Contact Now",
+    "openMenu": "Menu",
+    "closeMenu": "Close"
   },
   "hero": {
     "title": "Welcome to our Rabbit Farm!",
@@ -59,7 +63,20 @@
     "review2Author": "Sebastian K."
   },
   "footer": {
-    "copyright": "© 2026 Rabbit Shelter. All Rights Reserved."
+    "copyright": "© 2026 Rabbit Shelter. All Rights Reserved.",
+    "description": "A trusted hub for rabbit care, adoption, and daily care products.",
+    "socialTitle": "Social Media",
+    "contactTitle": "Contact Info",
+    "legalTitle": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  },
+  "products": {
+    "pageTitle": "Rabbits and Products",
+    "pageDescription": "Discover adorable rabbit profiles and essential daily care products on one page.",
+    "cta": "Contact for Order",
+    "rabbitsTitle": "Rabbits",
+    "shopTitle": "Products"
   },
   "about": {
     "badge": "About Us",

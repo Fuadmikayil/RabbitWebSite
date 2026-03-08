@@ -7,24 +7,23 @@ const VisionMission = () => {
   const { t } = useTranslation()
 
   return (
-    <section id="about" className="py-12 bg-zinc-200 text-center">
-      <h2 className="text-3xl font-semibold mb-6">{t('vision.title')}</h2>
-      <div className="grid md:grid-cols-2 gap-6">
-        <div>
-          <h3 className="font-bold text-xl mb-4">{t('vision.ourVision')}</h3>
-          <p>{t('vision.visionText')}</p>
+    <section id="about" className="px-4 py-12 md:px-6 md:py-16">
+      <div className="mx-auto grid w-full max-w-7xl gap-6 rounded-2xl bg-zinc-100 p-6 md:grid-cols-2 md:gap-8 md:p-8">
+        <div className="rounded-xl bg-white p-5 text-left md:p-6">
+          <h3 className="text-xl font-bold text-zinc-900 md:text-2xl">{t('vision.ourVision')}</h3>
+          <p className="mt-3 text-sm leading-6 text-zinc-600 md:text-base">{t('vision.visionText')}</p>
         </div>
-        <div>
-          <h3 className="font-bold text-xl mb-4">{t('vision.ourMission')}</h3>
-          <ul>
-            <li>{t('vision.savingRabbits')}</li>
-            <li>{t('vision.providingHomes')}</li>
-            <li>{t('vision.promotingWelfare')}</li>
+        <div className="rounded-xl bg-white p-5 text-left md:p-6">
+          <h3 className="text-xl font-bold text-zinc-900 md:text-2xl">{t('vision.ourMission')}</h3>
+          <ul className="mt-3 space-y-2 text-sm text-zinc-600 md:text-base">
+            <li>- {t('vision.savingRabbits')}</li>
+            <li>- {t('vision.providingHomes')}</li>
+            <li>- {t('vision.promotingWelfare')}</li>
           </ul>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default VisionMission;
+export default VisionMission
