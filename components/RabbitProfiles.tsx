@@ -9,7 +9,7 @@ interface Rabbit {
   age: number;
   weight: number;
   image: string;
-  description: string;
+  description: string;             
 }
 
 const RabbitProfiles = ({ rabbits }: { rabbits: Rabbit[] }) => {
@@ -39,13 +39,11 @@ const RabbitProfiles = ({ rabbits }: { rabbits: Rabbit[] }) => {
                 src={rabbit.image}
                 alt={rabbit.name}
                 className="h-[450px] mt-4 w-full object-cover md:h-[700px]"
-              />
-
+              /> 
               <div className="p-4 md:p-5">
                 <h3 className="text-lg font-bold text-zinc-900 md:text-xl">
                   {rabbit.name}
                 </h3>
-
                 <p className="mt-1 text-sm text-zinc-600 md:text-base">
                   {rabbit.age} {t("profiles.years")} | {rabbit.weight}{" "}
                   {t("profiles.weight")}
