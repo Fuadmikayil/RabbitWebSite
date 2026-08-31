@@ -27,7 +27,7 @@ const Footer = () => {
         <div>
           <h4 className="text-sm font-semibold uppercase tracking-wide text-zinc-200">{t('footer.contactTitle')}</h4>
           <div className="mt-3 space-y-2 text-sm text-zinc-300">
-            <a href="tel:+994500000000" className="block hover:text-white">+994 50 000 00 00</a>
+            <a href="tel:+994 70 774 04 04" className="block hover:text-white">+994 70 774 04 04 </a>
             <a href="mailto:info@rabbitsite.az" className="block hover:text-white">info@rabbitsite.az</a>
             <p>Baki, Azerbaijan</p>
           </div>

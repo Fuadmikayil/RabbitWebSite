@@ -6,7 +6,6 @@
     "ourTeam": "Наша команда",
     "services": "Услуги",
     "rabbitCare": "Уход за кроликами",
-    "adoptionServices": "Услуги усыновления",
     "pages": "Страницы",
     "blog": "Блог",
     "testimonials": "Отзывы",
@@ -30,15 +29,13 @@
     "vaccination": "Вакцинация",
     "vaccinationDesc": "Защита от распространённых болезней для здоровья вашего кролика."
   },
-  "adopt": {
-    "title": "Усыновите кролика, подарите ему счастливый дом",
-    "bunniesLoved": "Любимые Кролики",
-    "bunniesAdopted": "Усыновленные Кролики"
-  },
+ 
   "profiles": {
-    "title": "Найди своего пушистого друга здесь",
+    "title": "Познакомьтесь с нашими кроликами",
     "noRabbits": "На данный момент кроликов нет.",
-    "years": "лет"
+    "years": "месяц",
+    "weight": "кг"
+
   },
   "vision": {
     "title": "Наше Видение и Миссия",
@@ -164,7 +161,7 @@
     "addressLabel": "Адрес",
     "emailLabel": "Эл. почта",
     "emailSubject": "Новое сообщение с сайта (Форма контактов)",
-    "defaultPhone": "+994 50 000 00 00",
+    "defaultPhone": "+994 70 774 04 04",
     "defaultEmail": "info@example.com",
     "defaultAddress": "Баку, Азербайджан",
     "defaultHours": "09:00 - 18:00"

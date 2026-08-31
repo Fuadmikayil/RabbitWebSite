@@ -1,47 +1,82 @@
 [
   {
     "id": 1,
-    "name": "Frosty",
-    "breed": "Angora Rabbit",
-    "age": 2,
-    "gender": "Male",
-    "image": "/images/frosty.jpg",
+    "name": "Şinşilla",
+    "age": 5,
+    "weight" : "5.700",
+    "image": "/s1/s1hero.jpg",
     "description": "Frosty is a playful and curious young rabbit who loves exploring."
   },
   {
     "id": 2,
-    "name": "Lola",
-    "breed": "Himalayan Rabbit",
-    "age": 3,
-    "gender": "Female",
-    "image": "/images/lola.jpg",
+    "name": "Rizen",
+    "age": 6,
+    "weight" : "5.900",
+    "image": "/r1/r1.jpg",
     "description": "Lola is calm and gentle, loves to be petted and enjoys long naps."
   },
   {
     "id": 3,
-    "name": "Cookie",
-    "breed": "Dutch Rabbit",
-    "age": 1,
-    "gender": "Female",
-    "image": "/images/cookie.jpg",
+    "name": "Rəngli nəhəng/пёстрый великан",
+    "age": 3,
+    "weight" : "5.140",
+    "image": "/p1/p1.jpg",
     "description": "Cookie is friendly and loves interacting with people, very social."
   },
   {
     "id": 4,
-    "name": "Teeny",
-    "breed": "Mini Rex Rabbit",
-    "age": 2,
-    "gender": "Male",
-    "image": "/images/teeny.jpg",
-    "description": "Teeny is a small but energetic rabbit, loves running around and playing with toys."
+    "name": "Rizen",
+    "age": 6,
+    "weight" : "6.140",
+    "image": "/r2/r2.jpg",
+    "description": "Lola is calm and gentle, loves to be petted and enjoys long naps."
   },
   {
     "id": 5,
-    "name": "Cinnamon",
-    "breed": "Lionhead Rabbit",
+    "name": "Rizen",
+    "age": 6,
+    "weight" : "5.180",
+    "image": "/r3/r3.jpg",
+    "description": "Lola is calm and gentle, loves to be petted and enjoys long naps."
+  },
+  {
+    "id": 6,
+    "name": "Rizen",
     "age": 4,
-    "gender": "Female",
-    "image": "/images/cinnamon.jpg",
-    "description": "Cinnamon is sweet-natured and enjoys spending time with other rabbits."
+    "weight" : "4.380",
+    "image": "/r4/r4.jpg",
+    "description": "Lola is calm and gentle, loves to be petted and enjoys long naps."
+  },
+  {
+    "id": 7,
+    "name": "Rizen",
+    "age": 6,
+    "weight" : "5.900",
+    "image": "/r5/r5.jpg",
+    "description": "Lola is calm and gentle, loves to be petted and enjoys long naps."
+  },
+  {
+    "id": 8,
+    "name": "Rəngli nəhəng/пёстрый великан",
+    "age": 3,
+    "weight" : "5.200",
+    "image": "/p2/p2.jpg",
+    "description": "Cookie is friendly and loves interacting with people, very social."
+  },
+  {
+    "id": 9,
+    "name": "Rizen",
+    "age": 6,
+    "weight" : "5.900",
+    "image": "/r6/r6.jpg",
+    "description": "Lola is calm and gentle, loves to be petted and enjoys long naps."
+  },
+  {
+    "id": 10,
+    "name": "Şinşilla",
+    "age": 6,
+    "weight" : "6.400",
+    "image": "/s2/s2.jpg",
+    "description": "Lola is calm and gentle, loves to be petted and enjoys long naps."
   }
 ]

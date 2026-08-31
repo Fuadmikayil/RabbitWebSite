@@ -33,7 +33,7 @@ export default function ContactPage() {
     setPhone(onlyDigits(e.target.value));
   };
 
-  const site: any = (data as any)?.site ?? { name: "Rəşidoğlu İnşaat" };
+  const site: any = (data as any)?.site ?? { name: "TEXT" };
   const partnersAbout = (data as any)?.partnersSection?.about;
   const contact: any = (data as any)?.contactSection ?? {};
 
@@ -59,7 +59,6 @@ export default function ContactPage() {
   const fields = form.fields ?? {};
   const labelName = cleanText(fields.name) || t("contact.nameLabel");
   const labelPhone = cleanText(fields.phone) || t("contact.phoneLabel");
-  const labelService = cleanText(fields.service) || t("contact.serviceLabel");
   const labelMessage = cleanText(fields.message) || t("contact.messageLabel");
   const submitText = cleanText(form.submitText) || t("contact.submitBtn");
 
@@ -85,10 +84,8 @@ export default function ContactPage() {
   const ctaSecondaryHref = cleanText(cta.secondaryHref) || "#";
 
   const listCards = cards.length ? cards : fallbackCards;
-  const aboutText = partnersAbout?.text?.[0] ? cleanText(partnersAbout.text[0]) : "";
-  const aboutLogo = partnersAbout?.logo ? cleanText(partnersAbout.logo) : cleanText(site?.logoStatic);
 
-  const YOUR_EMAIL = "rashidoglu.inshaatmmc@gmail.com";
+  const YOUR_EMAIL = "xxx@gmail.com";
 
   const ctaMiniLinks = [
     { label: t("contact.whatsappLabel"), href: ctaPrimaryHref || "#", Icon: FaWhatsapp },
@@ -120,15 +117,6 @@ export default function ContactPage() {
             <p className="mt-5 text-[15px] leading-7 text-white/90 md:text-base">
               {heroSubtitle}
             </p>
-
-            <div className="mt-8 flex flex-wrap items-center gap-3">
-              <Link
-                href={`/${locale}/xidmetler`}
-                className="inline-flex items-center justify-center rounded-xl bg-[#F2A900] px-6 py-3 text-sm font-semibold text-black transition hover:brightness-95"
-              >
-                {t("contact.servicesBtn")}
-              </Link>
-            </div>
           </div>
         </div>
       </section>
@@ -204,9 +192,9 @@ export default function ContactPage() {
       </section>
 
       {/* FORM + COMPANY CARD */}
-      <section className="py-12 md:py-16">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 lg:grid-cols-12 lg:gap-12">
-          <div className="lg:col-span-7">
+      <section className="py-12  md:py-16">
+        <div className=" flex   max-w-full gap-10 px-4 lg: lg:gap-2 ">
+          <div className=" w-full mx-18 " >
             <div className="rounded-3xl border border-black/10 bg-white p-7 shadow-[0_15px_40px_rgba(0,0,0,0.06)] md:p-10">
               <h2 className="text-2xl font-extrabold text-black md:text-3xl">{formTitle}</h2>
               <p className="mt-3 text-[14px] leading-7 text-black/60">{formNote}</p>
@@ -246,17 +234,6 @@ export default function ContactPage() {
                   />
                 </div>
 
-                <select
-                  name="service"
-                  className="h-12 w-full rounded-xl border border-black/10 bg-white px-4 text-sm text-black outline-none transition focus:border-[#F2A900]/60 focus:ring-4 focus:ring-[#F2A900]/15"
-                  defaultValue=""
-                >
-                  <option value="" disabled>{labelService}</option>
-                  {serviceOptions.map((opt: string) => (
-                    <option key={opt} value={opt}>{opt}</option>
-                  ))}
-                </select>
-
                 <textarea
                   name="message"
                   rows={5}
@@ -279,43 +256,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          {/* COMPANY CARD */}
-          <div className="lg:col-span-5">
-            <div className="rounded-3xl border border-black/10 bg-white p-7 shadow-[0_15px_40px_rgba(0,0,0,0.06)] md:p-9">
-              <div className="flex items-start gap-5">
-                <div className="relative h-16 w-16 overflow-hidden rounded-2xl border border-black/10 bg-white">
-                  {aboutLogo ? (
-                    <Image src={aboutLogo} alt={cleanText(site?.name)} fill className="object-contain" />
-                  ) : null}
-                </div>
-
-                <div className="flex-1">
-                  <div className="text-sm font-semibold text-black">{t("contact.company")}</div>
-                  <div className="mt-1 text-xl font-extrabold text-black">{cleanText(site?.name)}</div>
-                  {aboutText ? (
-                    <p className="mt-3 text-[13px] leading-6 text-black/70">{aboutText}</p>
-                  ) : null}
-                </div>
-              </div>
-
-              <div className="mt-7 h-px bg-black/10" />
-
-              <div className="mt-7 grid grid-cols-1 gap-3">
-                <Link
-                  href={`/${locale}/haqqimizda`}
-                  className="inline-flex h-12 items-center justify-center rounded-xl border border-black/10 bg-white text-sm font-semibold text-black transition hover:bg-black/[0.03]"
-                >
-                  {t("contact.aboutPage")}
-                </Link>
-                <Link
-                  href={`/${locale}/xidmetler`}
-                  className="inline-flex h-12 items-center justify-center rounded-xl bg-black text-sm font-semibold text-white transition hover:opacity-95"
-                >
-                  {t("contact.selectService")}
-                </Link>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </section>
 
@@ -329,7 +270,7 @@ export default function ContactPage() {
 
           <div className="mt-8 overflow-hidden rounded-3xl border border-black/10 bg-[#F7F7F7]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3329.2624365466336!2d46.76505707598411!3d39.871459971532516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMznCsDUyJzE3LjMiTiA0NsKwNDYnMDMuNSJF!5e1!3m2!1saz!2saz!4v1766319637985!5m2!1saz!2saz"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d824.0743489185013!2d50.00987676963613!3d40.545917617299516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030f56252061007%3A0xf5cb7e88b7cff02e!2sSadiqin%20dov%C5%9Fan%20fermas%C4%B1!5e1!3m2!1saz!2saz!4v1787922579250!5m2!1saz!2saz"
               className="h-[360px] w-full md:h-[420px]"
               style={{ border: 0 }}
               allowFullScreen

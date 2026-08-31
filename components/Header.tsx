@@ -12,7 +12,6 @@ const Header = () => {
 
   const navItems = [
     { href: `/${locale}`, label: t('nav.home') },
-    { href: `/${locale}/xidmetler`, label: t('nav.services') },
     { href: `/${locale}/mehsullar`, label: t('nav.products') },
     { href: `/${locale}/haqqimizda`, label: t('nav.aboutUs') },
   ]

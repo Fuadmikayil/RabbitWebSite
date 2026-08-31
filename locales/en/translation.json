@@ -3,10 +3,7 @@
     "home": "Home",
     "aboutUs": "About Us",
     "ourMission": "Our Mission",
-    "ourTeam": "Our Team",
     "services": "Services",
-    "rabbitCare": "Rabbit Care",
-    "adoptionServices": "Adoption Services",
     "pages": "Pages",
     "blog": "Blog",
     "testimonials": "Testimonials",
@@ -25,20 +22,17 @@
     "title": "Our Services",
     "nutritiousFood": "Nutritious Food",
     "nutritiousFoodDesc": "High-quality food for rabbits that ensures a healthy life.",
-    "rabbitCare": "Rabbit Care",
     "rabbitCareDesc": "Comprehensive care packages for all your rabbit needs.",
     "vaccination": "Vaccination",
     "vaccinationDesc": "Protection against common diseases to keep your rabbit healthy."
   },
-  "adopt": {
-    "title": "Adopt a Bunny, Give It a Happy Home",
-    "bunniesLoved": "Bunnies Loved",
-    "bunniesAdopted": "Bunnies Adopted"
-  },
+ 
   "profiles": {
-    "title": "Find Your Furry Friend Here",
+    "title": "Meet our rabbits",
     "noRabbits": "No rabbits available at the moment.",
-    "years": "years"
+    "years": "month",
+    "weight": "kg"
+
   },
   "vision": {
     "title": "Our Vision And Mission",
@@ -49,12 +43,7 @@
     "providingHomes": "Providing loving homes",
     "promotingWelfare": "Promoting rabbit welfare education"
   },
-  "team": {
-    "title": "Meet Our Team",
-    "rabbitCareSpecialist": "Rabbit Care Specialist",
-    "volunteerCoordinator": "Volunteer Coordinator",
-    "rabbitTrainer": "Rabbit Trainer"
-  },
+ 
   "reviews": {
     "title": "Rabbit Lovers Review",
     "review1": "A wonderful place for adopting rabbits. They took such good care of my bunny!",
@@ -164,7 +153,7 @@
     "addressLabel": "Address",
     "emailLabel": "Email",
     "emailSubject": "New message from site (Contact form)",
-    "defaultPhone": "+994 50 000 00 00",
+    "defaultPhone": "+994 70 774 04 04",
     "defaultEmail": "info@example.com",
     "defaultAddress": "Baku, Azerbaijan",
     "defaultHours": "09:00 - 18:00"
